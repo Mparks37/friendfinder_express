@@ -1,8 +1,4 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the possible friends.
-// ===============================================================================
-
+// Creating friends
 
 var friends = [
     {
@@ -22,8 +18,8 @@ var friends = [
       ]
     },
     {
-      name: "Jacob Deming",
-      photo: "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+      name: "Rock Johnson",
+      photo: "https://i.pinimg.com/564x/2e/4e/7f/2e4e7f0bb531470774bd4bd3c434c646--wwe-the-rock-dwayne-the-rock.jpg",
       scores: [
         "4",
         "2",
@@ -38,8 +34,8 @@ var friends = [
       ]
     },
     {
-      name: "Jeremiah Scanlon",
-      photo: "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+      name: "Brock Lesner",
+      photo: "https://healthyceleb.com/wp-content/uploads/2015/07/Wrestling-Stars-With-Shocking-Health-Conditions.jpg",
       scores: [
         "5",
         "2",
@@ -54,8 +50,8 @@ var friends = [
       ]
     },
     {
-      name: "Louis T. Delia",
-      photo: "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+      name: "Hulk Hogan",
+      photo: "https://cdn-images-1.medium.com/max/2000/1*MooC9vFrakMZmEoPyKCvLQ.jpeg",
       scores: [
         "3",
         "3",
@@ -70,8 +66,8 @@ var friends = [
       ]
     },
     {
-      name: "Lou Ritter",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+      name: "Ultimate Warrior",
+      photo: "https://static2.stuff.co.nz/1397088815/789/9925789.jpg",
       scores: [
         "4",
         "3",
@@ -86,8 +82,8 @@ var friends = [
       ]
     },
     {
-      name: "Jordan Biason",
-      photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+      name: "John Cena",
+      photo: "http://www.strongestinworld.com/wp-content/uploads/2014/09/john-cena.jpg",
       scores: [
         "4",
         "4",
@@ -104,6 +100,6 @@ var friends = [
   
   ];
   
-  // Here we export the array. This makes it accessible to other files using require.
+  // Export the array. 
   module.exports = friends;
   
